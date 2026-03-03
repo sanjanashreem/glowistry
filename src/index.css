@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: #fff9fb;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Container utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Button base style (optional helper) */
+.btn-primary {
+  @apply bg-pink-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition;
+}
+
+/* Section spacing */
+.section {
+  @apply py-16;
+}

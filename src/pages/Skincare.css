@@ -1,0 +1,157 @@
+/* Page background */
+.skincare-page {
+  background: #f6eef1;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ff4f87;
+}
+
+.navbar nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #ff4f87;
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.header h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.header p {
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Search Bar */
+.search-container {
+  position: relative;
+  width: 360px;
+  margin: 35px auto;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px 42px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: white;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  font-size: 14px;
+}
+
+/* Search icon */
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+/* Clear icon */
+.clear-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.clear-icon:hover {
+  opacity: 0.6;
+}
+
+
+/* Products grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  padding: 40px 80px;
+}
+
+/* Product card */
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* Product image */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Product name */
+.card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Price */
+.price {
+  color: #ff4f87;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Description */
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin-top: 6px;
+}
+
+/* No result message */
+.no-result {
+  text-align: center;
+  grid-column: 1 / -1;
+  font-size: 18px;
+  color: #888;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  color: #777;
+}

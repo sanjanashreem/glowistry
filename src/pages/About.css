@@ -1,0 +1,96 @@
+.about-page {
+  background: #fff7fb;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+.about-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.about-navbar nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.about-navbar nav a:hover {
+  color: #e91e63;
+}
+
+/* Hero */
+.about-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about-hero h2 {
+  font-size: 40px;
+  color: #c2185b;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  max-width: 650px;
+  margin: auto;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Mission Section */
+.about-mission {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 60px 80px;
+}
+
+.mission-card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.mission-card h3 {
+  margin-bottom: 10px;
+  color: #e91e63;
+}
+
+/* Growth Section */
+.about-growth {
+  padding: 70px 80px;
+  text-align: center;
+  background: white;
+}
+
+.about-growth h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.about-growth p {
+  max-width: 700px;
+  margin: 10px auto;
+  color: #555;
+}
+
+/* Footer */
+.about-footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+}
