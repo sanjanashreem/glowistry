@@ -13,7 +13,7 @@ function Home() {
             <Link to="/girly_finds">Girly Finds</Link>
             <Link to="/beauty">Beauty</Link>
             <Link to="/about">About us</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/blog">Blog</Link>
         </nav>
       </header>
 

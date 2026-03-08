@@ -1,82 +1,101 @@
-import "./About.css";
+import { Link } from "react-router-dom";
+import "./AboutContact.css";
 
-function About() {
+function AboutContact() {
   return (
-    <div className="about-page">
+    <div className="about-contact-page">
+
       {/* Navbar */}
-      <header className="about-navbar">
+      <header className="navbar">
         <h1 className="logo">Glowistry</h1>
         <nav>
-          <a href="/">Home</a>
-          <a href="#">Skincare</a>
-          <a href="#">Beauty</a>
-          <a href="#">Girl Finds</a>
-          <a href="#">Organizers</a>
-          <a href="#">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
         </nav>
       </header>
 
       {/* About Section */}
-      <section className="about-hero">
+      <section className="about-section">
         <h2>About Glowistry</h2>
         <p>
           Glowistry is a curated space where beauty, skincare, and aesthetic
-          lifestyle finds come together. We help you discover trending products
-          that are loved across the internet.
+          lifestyle finds come together. We help you discover trending
+          products loved across the internet.
         </p>
       </section>
 
-      {/* Mission Section */}
-      <section className="about-mission">
-        <div className="mission-card">
+      {/* Mission Cards */}
+      <section className="mission-section">
+        <div className="card">
           <h3>Our Mission</h3>
           <p>
-            Our mission is to help people discover high-quality beauty and
-            skincare products easily. We research trending products from
-            platforms like Pinterest and recommend the best ones.
+            We help people discover high-quality beauty and skincare products
+            quickly without spending hours searching online.
           </p>
         </div>
 
-        <div className="mission-card">
+        <div className="card">
           <h3>What We Do</h3>
           <p>
-            We curate trending beauty products, skincare essentials, and
-            aesthetic organizers. Our goal is to save your time by showing only
-            the most loved and useful items.
+            We curate trending beauty items, skincare essentials, and aesthetic
+            organizers that people genuinely love.
           </p>
         </div>
 
-        <div className="mission-card">
+        <div className="card">
           <h3>Why Trust Us</h3>
           <p>
-            Every product featured on Glowistry is selected based on popularity,
-            reviews, and trends. We focus on helping users find products that
-            truly add value.
+            Every product is selected based on popularity, reviews, and
+            real trends from platforms like Pinterest.
           </p>
         </div>
       </section>
 
       {/* Growth Section */}
-      <section className="about-growth">
-        <h2>How We Help People Discover Products</h2>
+      <section className="growth-section">
+        <h2>How People Discover Glowistry</h2>
         <p>
           Many users discover Glowistry through Pinterest where we share
-          trending product ideas and beauty recommendations. From there, users
-          can visit our website and explore curated collections.
+          trending beauty finds and aesthetic product ideas.
         </p>
 
         <p>
-          Our goal is to create a space where people can quickly find trending
-          beauty and skincare products without spending hours searching.
+          Our goal is to create a simple place where you can quickly explore
+          trending beauty and skincare products.
         </p>
       </section>
 
+      {/* Contact Section */}
+      <section className="contact-section">
+        <h2>Let’s Glow Together ✨</h2>
+        <p>
+          Have a question, collaboration idea, or product suggestion?
+          We'd love to hear from you.
+        </p>
+
+        <div className="contact-card">
+          <h3>Email</h3>
+          <p className="email">hello@glowistry.com</p>
+          <p className="note">Response time: 24–48 hours</p>
+        </div>
+
+        <div className="contact-reasons">
+          <ul>
+            <li>💖 Product suggestions</li>
+            <li>🤝 Brand collaborations</li>
+            <li>✨ Feature requests</li>
+            <li>📌 Pinterest partnerships</li>
+          </ul>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="about-footer">
-        <p>© 2026 Glowistry. All rights reserved.</p>
+      <footer className="footer">
+        © 2026 Glowistry. Curated with love.
       </footer>
+
     </div>
   );
 }
 
-export default About;
+export default AboutContact;
