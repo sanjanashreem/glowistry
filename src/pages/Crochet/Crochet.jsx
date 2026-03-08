@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import crochetProducts from "../../data/crochetProducts";
-import "../styles/CrochetFinds.css";
+import crochetProducts from "./data/crochetProducts";
+import "./Crochet.css";
 
 function CrochetFinds() {
   return (

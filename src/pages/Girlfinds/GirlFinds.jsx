@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import mustHaveProducts from "../../data/mustHaveProducts";
-import "../styles/MustHaveFinds.css";
+import mustHaveProducts from "./data/GirlfindsProducts";
+import "./GirlFinds.css";
 
 function MustHaveFinds() {
   return (
     <div className="musthave-page">
-
       {/* Navbar */}
       <header className="musthave-navbar">
         <h1 className="logo">Glowistry</h1>

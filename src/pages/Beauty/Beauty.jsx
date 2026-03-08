@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import beautyProducts from "../../data/beautyProducts";
-import "../styles/Beauty.css";
+import beautyProducts from "./data/beautyProducts";
+import "./Beauty.css";
 
 function Beauty() {
   return (
