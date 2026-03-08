@@ -1,14 +1,9 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
-
+import homepic from "../assets/homepic.jpg";
 function Home() {
   return (
     <div className="home">
-
-      {/* Announcement */}
-      <div className="announcement">
-        ✨ Free Shipping on Orders Over $50
-      </div>
 
       {/* Navbar */}
       <header className="navbar">
@@ -26,25 +21,28 @@ function Home() {
       </header>
 
       {/* Hero */}
-      <section className="hero">
-        <div className="hero-content">
-          <h2>Pure Beauty, Naturally</h2>
-          <p>
-            Discover trending skincare, beauty essentials, and aesthetic
-            lifestyle finds curated just for you.
-          </p>
+      <section
+  className="hero"
+  style={{ backgroundImage: `url(${homepic})` }}
+>
+  <div className="hero-content">
+    <h2>Pure Beauty, Naturally</h2>
+    <p>
+      Discover trending skincare, beauty essentials, and aesthetic
+      lifestyle finds curated just for you.
+    </p>
 
-          <div className="hero-buttons">
-            <Link to="/beauty">
-              <button className="primary-btn">Shop Beauty</button>
-            </Link>
+    <div className="hero-buttons">
+      <Link to="/beauty">
+        <button className="primary-btn">Shop Beauty</button>
+      </Link>
 
-            <Link to="/skincare">
-              <button className="secondary-btn">Shop Skincare</button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <Link to="/skincare">
+        <button className="secondary-btn">Shop Skincare</button>
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* Categories */}
       <section className="categories">
@@ -78,7 +76,7 @@ function Home() {
       {/* Trending Products */}
       <section className="trending">
 
-        <h2>Trending Products</h2>
+        <h2>Trending Now</h2>
 
         <div className="product-grid">
 

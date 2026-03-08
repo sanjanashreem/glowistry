@@ -49,26 +49,32 @@ color:#e84a5f;
 
 /* Hero */
 
+
 .hero{
 height:500px;
-background:linear-gradient(to right,#fdf1f5,#fde6ef);
+background-size:cover;
+background-position:right center;
+background-repeat:no-repeat;
 display:flex;
 align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
+padding-left:80px;
+}
+
+.hero-content{
+max-width:500px;
+background:rgba(255,255,255,0.6);
+padding:30px;
+border-radius:10px;
 }
 
 .hero h2{
-font-size:44px;
-margin-bottom:15px;
+font-size:42px;
+margin-bottom:10px;
 }
 
 .hero p{
-max-width:550px;
-margin:auto;
-color:#555;
-margin-bottom:25px;
+margin-bottom:20px;
+color:#333;
 }
 
 .hero-buttons button{
