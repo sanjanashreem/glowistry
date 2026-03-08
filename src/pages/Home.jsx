@@ -10,10 +10,12 @@ function Home() {
         <nav>
             <Link to="/">Home</Link>
             <Link to="/skincare">Skincare</Link>
-            <Link to="/girly_finds">Girly Finds</Link>
             <Link to="/beauty">Beauty</Link>
-            <Link to="/about">About us</Link>
             <Link to="/blog">Blog</Link>
+            <Link to="/girly_finds">Must-Have Finds</Link>
+            <Link to="/crochet">Crochet</Link>
+            <Link to="/about">About us</Link>
+            
         </nav>
       </header>
 
