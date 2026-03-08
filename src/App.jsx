@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Blog/Blog";
 import GirlFinds from "./pages/Girlfinds/GirlFinds";
 import Beauty from "./pages/Beauty/Beauty";
-import Skincare from "./pages/Skincare";
+import Skincare from "./pages/Skincare/Skincare";
 import Crochet from "./pages/Crochet/Crochet";
 
 function App() {

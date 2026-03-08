@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import skincareProducts from "../data/skincareProducts";
+import skincareProducts from "../../data/skincareProducts";
 import "./Skincare.css";
 
 function Skincare() {

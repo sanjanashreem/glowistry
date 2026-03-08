@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import mustHaveProducts from "../data/mustHaveProducts";
+import mustHaveProducts from "../../data/mustHaveProducts";
 import "../styles/MustHaveFinds.css";
 
 function MustHaveFinds() {
